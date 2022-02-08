@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.flex{
+    
+    padding-bottom:30px ;
+    padding-top: 10px;
+    padding-left: 10px;
+	display: flex;
+	justify-content: flex-end;
+	padding: 1rem;
+	
+}
+.inp{
+   
+    background-color: transparent;
+	border:2px solid, #0986c0;
+	border-radius: 50px;
+	color: black;
+	font-family: inherit;
+	font-size: 1.2rem;
+	
+}
+.bnnt{
+    border: none;
+    width: 110px;
+    height: 40px;
+   margin-left: 10px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 1.5em sans-serif;
+    background-image:linear-gradient(225deg,  #09f1d2 0%,#c927d8 100%,#00c5d3 50%);
+    border-radius:5px;
+}
+
+.heder{
+    position:fixed;
+	top:0;
+    background-color: aliceblue;
+	left:0;
+	right: 0;
+	z-index: 15;
+    display: flex;
+    justify-content: space-between;
+}
+.iconn{
+    display: flex;
+ margin-left: 20px;  
+    
+}
+.taskss{
+    color:rgb(167, 4, 195);
+font-family: Montserrat,sans-serif;
+font-size: 20px;
+font-weight: 800;
+margin-left: 10px;
+}
+i{
+	float: left;
+	color: rgb(128, 4, 211);
+	font-size: xx-large;
+    padding-top: 20px;
+}
+.taskk{
+    margin-top: 100px;
+}
+.bttn{
+    border: none;
+    width: 110px;
+    height: 40px;
+    margin-left: 10px;
+    
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 1.5em sans-serif;
+    background-image:linear-gradient(225deg,  #09f1d2 0%,#c927d8 100%,#00c5d3 50%);
+    border-radius:5px;
+}
+.cards{
+    position: relative;
+  display: flex;
+ flex-direction: column;
+  min-width: 0;
+ word-wrap: break-word;
+ background-color: #fff;
+background-clip: border-box;
+border:1px solid rgba(0,0,0,.125);
+ border-radius: 0.25rem;
+}
+.butto{
+    border: none;
+    width: 60px;
+    height: 25px;
+        
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+    background-image:linear-gradient(225deg,  #09f1d2 0%,#c927d8 100%,#00c5d3 50%);
+    border-radius:2px;
+}
+.text{
+    background-color: transparent;
+	border:2px solid;
+	border-radius: 7px;
+	color: black;
+	font-family: inherit;
+	
+}
